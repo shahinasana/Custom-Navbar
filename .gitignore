@@ -1,7 +1,21 @@
 .DS_Store
 *.pyc
-*.egg-info
+*.pyo
+__pycache__/
+*.egg-info/
 *.swp
 tags
-node_modules
-__pycache__
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Frappe / Bench
+sites/
+assets/
