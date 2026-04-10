@@ -1,0 +1,436 @@
+.menu-group {
+    display: inline-block;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+.menu-caption {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.floating-menu-content {
+    display: none;
+    background: #fff;
+    border: 1px solid #ddd;
+    min-width: 200px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.floating-menu-content a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.floating-menu-content a:hover {
+    background: #f5f5f5;
+}
+
+
+
+
+
+
+
+/* Modern ERPNext Form View Styling - Version 14+ */
+
+/* Main Form Container */
+.form-section {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e9eef2;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+}
+
+.form-section .section-head {
+    background: #f9fbfd;
+    padding: 12px 15px;
+    border-bottom: 1px solid #e9eef2;
+    font-weight: 500;
+    font-size: 14px;
+    color: #192b3c;
+    letter-spacing: 0.3px;
+}
+
+/* Grid/Table Styling */
+.form-grid {
+    border: 1px solid #e9eef2;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 12px 0;
+    background: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+
+/* Grid Header */
+.grid-heading-row {
+    background: #f9fbfd;
+    border-bottom: 1px solid #e9eef2;
+    padding: 10px 12px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #4a5b6b;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.grid-heading-row .col {
+    color: #405261;
+    font-weight: 500;
+}
+
+/* Grid Rows */
+.grid-body .grid-row {
+    border-bottom: 1px solid #edf2f5;
+    transition: background-color 0.15s ease;
+    min-height: 45px;
+}
+
+.grid-body .grid-row:last-child {
+    border-bottom: none;
+}
+
+.grid-body .grid-row:hover {
+    background-color: #fafcfd;
+}
+
+.grid-body .grid-row.selected {
+    background-color: #fff7e5;
+    border-left: 3px solid #ffa00a;
+}
+
+/* Grid Footer */
+.grid-footer {
+    background: #f9fbfd;
+    border-top: 1px solid #e9eef2;
+    padding: 10px 12px;
+    font-size: 12px;
+    color: #405261;
+}
+
+/* Column Layout */
+.data-row {
+    display: flex;
+    align-items: center;
+    min-height: 45px;
+    padding: 4px 12px;
+}
+
+.data-row .col {
+    padding: 4px 8px;
+}
+
+/* Input Fields - Modern Style */
+.form-control {
+    height: 36px;
+    padding: 8px 12px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #1e2b38;
+    background-color: #fff;
+    border: 1px solid #d9e2e9;
+    border-radius: 6px;
+    transition: all 0.15s ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+
+.form-control:hover {
+    border-color: #b6c9d7;
+    background-color: #fff;
+}
+
+.form-control:focus {
+    border-color: #2490ef;
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(36, 144, 239, 0.12);
+    background-color: #fff;
+}
+
+/* Small Input Size */
+.input-xs {
+    height: 32px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+/* Link Field Styling */
+.link-field {
+    position: relative;
+    width: 100%;
+}
+
+.link-field .input-with-feedback {
+    height: 36px;
+    padding: 8px 12px;
+    font-size: 13px;
+    border: 1px solid #d9e2e9;
+    border-radius: 6px;
+    background: white;
+    transition: all 0.15s ease;
+}
+
+.link-field .input-with-feedback:hover {
+    border-color: #b6c9d7;
+}
+
+.link-field .input-with-feedback:focus {
+    border-color: #2490ef;
+    box-shadow: 0 0 0 3px rgba(36, 144, 239, 0.12);
+    outline: none;
+}
+
+/* Select Dropdown Styling */
+select.form-control {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23405261' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 14px;
+    padding-right: 32px;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+/* Awesomplete Dropdown */
+.awesomplete > ul {
+    border: 1px solid #e9eef2;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background: white;
+    margin-top: 4px;
+    padding: 6px 0;
+    max-height: 250px;
+    overflow-y: auto;
+    font-size: 13px;
+}
+
+.awesomplete > ul > li {
+    padding: 8px 14px;
+    cursor: pointer;
+    color: #1e2b38;
+    transition: background-color 0.1s ease;
+}
+
+.awesomplete > ul > li:hover {
+    background-color: #f4f8fc;
+}
+
+.awesomplete > ul > li[aria-selected="true"] {
+    background-color: #e8f1fd;
+    color: #1e2b38;
+    font-weight: 500;
+}
+
+/* Buttons - Modern Style */
+.btn {
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 36px;
+    transition: all 0.15s ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    cursor: pointer;
+}
+
+.btn-xs {
+    height: 28px;
+    line-height: 26px;
+    padding: 0 12px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.btn-default {
+    background: white;
+    border: 1px solid #d9e2e9;
+    color: #405261;
+}
+
+.btn-default:hover {
+    background: #f8fbfd;
+    border-color: #b6c9d7;
+    color: #1e2b38;
+}
+
+.btn-primary {
+    background: #2490ef;
+    border: 1px solid #2490ef;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #1a7fd1;
+    border-color: #1a7fd1;
+    box-shadow: 0 4px 8px rgba(36, 144, 239, 0.2);
+}
+
+/* Add Row Button - Special Style */
+.grid-add-row {
+    background: #f4f8fc;
+    border: 1px dashed #b6c9d7;
+    border-radius: 30px;
+    padding: 4px 16px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #2490ef;
+    transition: all 0.15s ease;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.grid-add-row:hover {
+    background: #e8f1fd;
+    border-color: #2490ef;
+    color: #1a7fd1;
+}
+
+.grid-add-row:before {
+    content: "+";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+/* Totals Styling */
+.total-debit, .total-credit {
+    font-weight: 600;
+    font-size: 14px;
+    color: #1e2b38;
+    padding: 6px 0;
+}
+
+.total-debit {
+    color: #e24c4c;
+}
+
+.total-credit {
+    color: #34a753;
+}
+
+/* Section Headers */
+.section-head {
+    background: #f9fbfd;
+    padding: 12px 16px;
+    border-bottom: 1px solid #e9eef2;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1e2b38;
+    letter-spacing: 0.2px;
+}
+
+/* Card Style for Custom Sections */
+.custom-card {
+    background: white;
+    border: 1px solid #e9eef2;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.table th {
+    background: #f9fbfd;
+    padding: 12px 10px;
+    font-weight: 500;
+    color: #405261;
+    border-bottom: 1px solid #e9eef2;
+    text-align: left;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #edf2f5;
+}
+
+.table tbody tr:hover {
+    background-color: #fafcfd;
+}
+
+/* Status Indicators */
+.status-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 30px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.status-badge.success {
+    background: #e0f7e9;
+    color: #0f7840;
+}
+
+.status-badge.warning {
+    background: #fff1d6;
+    color: #b45b0a;
+}
+
+.status-badge.danger {
+    background: #ffe6e6;
+    color: #c43e3e;
+}
+
+.status-badge.info {
+    background: #e0f0ff;
+    color: #1a66b3;
+}
+
+/* Remove spinners from number inputs */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Placeholder Styling */
+::placeholder {
+    color: #a0b5c6;
+    font-size: 12px;
+    opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .data-row {
+        flex-wrap: wrap;
+    }
+    
+    .data-row .col {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    
+    .grid-add-row {
+        width: 100%;
+        justify-content: center;
+    }
+}

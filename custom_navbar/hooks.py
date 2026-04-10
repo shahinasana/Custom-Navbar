@@ -25,6 +25,17 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
+app_include_css = [
+    "/assets/custom_navbar/css/custom_navbar.css"
+]
+
+# JavaScript includes
+app_include_js = [
+    "/assets/custom_navbar/js/custom_navbar.js",
+    # "/assets/tally_erp/js/custom_desk_navbar.js"
+]
+
+# include js, css files in header of desk.html
 # app_include_css = "/assets/custom_navbar/css/custom_navbar.css"
 # app_include_js = "/assets/custom_navbar/js/custom_navbar.js"
 
