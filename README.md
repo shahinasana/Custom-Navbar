@@ -27,3 +27,8 @@ bench --site your-site-name install-app custom_navbar
 ### License
 
 mit
+
+## 🎥 Demo
+
+[Watch the demo on YouTube](https://youtu.be/6SBuZyRgRk0)
+
